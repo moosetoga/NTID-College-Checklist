@@ -335,3 +335,17 @@ footer a {
 	border-color: #40b649;
 }
 
+.modal label {font-size: .9em;}
+
+.btn-share {
+	background: #168C28;
+	border-color: #40b649;
+	margin-bottom: 2em;
+}
+
+.btn-share:hover, .btn-share:active {
+  background-color: #0f5f1b;
+	border-color: #40b649;
+}
+
+
