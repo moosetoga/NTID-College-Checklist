@@ -38,7 +38,8 @@
       <div class="row no-gutter">
         <div class="col-12">
           <h3>Tips to help you choose the right college.</h3>
-          <p>There are a number of questions regarding access, support, communication and security that students with hearing loss should ask before choosing a college. Asking these questions on your campus visits or in conversations with admissions counselors can help you select the college that is the best fit for you. Here are some tips on what to ask the colleges you’re considering. Tear out this page and take it with you on your college visits.</p>
+          <p>There are a number of questions regarding access, support, communication and security that students with hearing loss should ask before choosing a college. Asking these questions on your campus visits or in conversations with admissions counselors can help you select the college that is the best fit for you. Here are some tips on what to ask the colleges you’re considering. Share this page, print it out and take it with you on your college visits.</p>
+			<div class="text-center"><button type="button" class="btn btn-primary btn-share"><a class="nav-link" data-toggle="modal" data-target="#shareModal">Share Tips</a></button></div>
         </div>
       </div>
     </div>
@@ -154,12 +155,48 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
-        <p>This checklist lays out the steps you need to take
-          during the college search and application 
+        <p>This checklist lays out the steps you need to take during the college search and application 
           process. Ask any college freshman—having all this information in one place while you are applying is a huge help.
-          As you accomplish each step, check it off and fill in names, dates, times and comments for easy reference. </p>
-        <p>Remember, all colleges are different, and this information is general. Your college choice may require some additional 
-          steps, so investigate and add those to your checklist. </p>
+          As you accomplish each step, check it off and fill in names, dates, times and comments for easy reference. Remember, all colleges are different, and this information is general. </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	<!-- Modal 2: Share Tips -->
+<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title orange" id="aboutModalLabel">Share These Tips</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+		  <p>Let us know who you'd like to send these tips to, and we'll email them a link, where they'll be able to view and print them.</p>
+        <form>
+		  <div class="form-group">
+			<label for="email">Email address</label>
+			<input type="email" class="form-control" id="email" placeholder="name@example.com" aria-describedby="emailHelpBlock" required>
+			  <small id="emailHelpBlock" class="form-text text-muted">What is the email address of the person you would like to share this with?</small>
+		  </div>
+		  <div class="form-group">
+			<label for="who">Relationship</label>
+			<select class="form-control" id="who" aria-describedby="whoHelpBlock" required>
+			  <option selected>Choose...</option>
+			  <option>Parent</option>
+			  <option>Teacher</option>
+			  <option>Friend</option>
+			  <option>Self</option>
+			</select>
+			  <small id="whoHelpBlock" class="form-text text-muted">What is the relationship of this person to you?</small>
+		  </div>
+			<div class="form-group">
+			<button type="submit" class="btn btn-secondary">Send</button>
+		  </div>
+		</form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
