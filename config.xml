@@ -16,6 +16,8 @@
   <author href="https://www.ntid.rit.edu/cmms" email="ntidwebmaster@rit.edu">
       NTID Web Team
   </author>
+
+  <icon src="icon.png" width="180" height="180" />
   
   <plugin name="cordova-plugin-inappbrowser"/>
 
