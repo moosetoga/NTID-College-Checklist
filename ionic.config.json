@@ -1,0 +1,7 @@
+{
+  "name": "ntid-college-checklist",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}
